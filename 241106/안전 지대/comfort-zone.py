@@ -11,7 +11,7 @@ for i in range(n):
     graph[i] = list(map(int, input().split()))
     mk = max(mk, max(graph[i]))
 
-k = 0
+k = 1
 sa = 0
 
 def dfs(x, y, tk):
